@@ -202,12 +202,11 @@
 
     .newsletter-input hr {
         width: 288px;
-        height: 1px;
         margin-left: 25px;
     }
 
     .newsletter-input input {
-        width: 288px;
+        width: 278px;
         height: 52px;
         margin-left: 25px;
     }
@@ -246,7 +245,46 @@
         text-align: center;
         font-size: 32px;
         font-size: 21.138px;
+    }
 
+    .footer {
+        width: 375px;
+        height: 309px;
+    }
 
+    .footer-heading {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 15px;
+        margin: auto;
+    }
+
+    .footer-heading img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .footer-heading h2 {
+        font-size: 21.543px;
+
+    }
+  
+    .footer-content p {
+        width: 287px;
+        font-size: 14px;
+
+    }
+    .fa-brands{
+        margin-top: 10px;
+    }
+    .footer-content hr {
+        width: 335px;
+        margin-top: 10px;
+    }
+
+    .copyright {
+        font-size: 14px;
+        padding-top: 15px;
     }
 }
