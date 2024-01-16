@@ -304,10 +304,12 @@ select,
     width: 573px;
     height: 284px;
 }
-#choose-inner img{
+
+#choose-inner img {
     margin-left: 32px;
     margin-top: 32px;
 }
+
 #choose-inner h2 {
     color: #131318;
     font-family: Mulish;
@@ -344,6 +346,103 @@ select,
 .choose-content-hotel {
     background: rgba(251, 181, 99, 0.05);
 }
-.choose-content-map{
+
+.choose-content-map {
     background: rgba(41, 206, 246, 0.05);
+}
+
+/* newsletter section */
+.newsletter {
+    max-width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 474px 672px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.newsletter-input {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+
+}
+
+.newsletter-input h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.newsletter-input p {
+    width: 350px;
+    margin-top: 16px;
+    margin-left: 40px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.newsletter-input hr {
+    width: 393px;
+    height: 1px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.newsletter-input input {
+    width: 393px;
+    height: 52px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.newsletter-input button {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 40px;
+    margin-top: 16px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.newletter-img-content {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    background-color: #FF5400;
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: -170px;
+}
+
+.newletter-img-content p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.newletter-img-content h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
 }
