@@ -191,6 +191,96 @@ select,
     border: 0;
 }
 
+/* destination section */
+.destination {
+    max-width: 85%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.dest-img-c1,
+.dest-img-c2,
+.dest-img-c3 {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.common-title {
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    /* 162.5% */
+}
+
+.common-para {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: auto;
+    margin-top: 25px;
+    /* 162.5% */
+}
+
+.img-tit1 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -165px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-tit2-1 {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -165px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-tit2-2 {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -165px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-tit2-3 {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -165px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-tit3-1 {
+    position: absolute;
+    margin-left: 165px;
+    margin-top: -165px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-tit3-2 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -165px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
 
 
 /* responsive for mobile device */
@@ -254,7 +344,6 @@ select,
 
     .tour-content {
         width: 100%;
-        margin: a;
     }
 
     .tour-content h1 {
@@ -266,11 +355,13 @@ select,
         font-size: 14px;
 
     }
-    .tour-list{
+
+    .tour-list {
         max-width: 320px;
         font-size: 14px;
 
     }
+
     .tour-list li {
         width: 300px;
     }
@@ -280,4 +371,61 @@ select,
         height: 342px;
         margin-top: 10px;
     }
+    .destination {
+        width: 100%;
+        justify-content: center;
+    }
+    .common-title {
+        font-size: 20px;
+        margin: auto;
+    }
+    
+    .common-para {
+        width: 285px;
+        font-size: 14px;
+
+    }
+
+    .dest-img-c1,
+    .dest-img-c2,
+    .dest-img-c3 {
+        flex-direction: column;
+    }
+
+    .d-img {
+        width: 300px;
+        height: 176px;
+        flex-shrink: 0;
+    }
+    .img-tit1 {
+        margin-left: 90px;
+        margin-top: -100px;
+        
+    }
+    
+    .img-tit2-1 {
+        margin-left: 90px;
+        margin-top: -100px;
+        
+    }
+    
+    .img-tit2-2 {
+        margin-left: 50px;
+        margin-top: -105px;
+    }
+    
+    .img-tit2-3 {
+        margin-left: 95px;
+        margin-top: -105px;
+    }
+    .img-tit3-1 {
+        margin-left: 70px;
+        margin-top: -110px;
+    }
+    
+    .img-tit3-2 {
+        margin-left: 70px;
+        margin-top: -110px;
+    }
+    
 }
